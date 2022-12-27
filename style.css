@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.canvasContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#canvas1{
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+#canvas2{
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+   /* border: 10px solid wheat;*/
+}
+
